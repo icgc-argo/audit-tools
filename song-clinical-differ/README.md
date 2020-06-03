@@ -9,10 +9,15 @@ This tool is particularily useful when the clinical service SONG pointed to was 
 - vitrualenv
 
 ## Initialize Env
-```
+
+```bash
 virtualenv -p  python  test-venv
 source test-venv/bin/activate
 pip install -r requirements.txt
-python song-clinical-differ.py --jwt <jwt>  --song-url https://song.example.org --clinical-url https://clincal.example.org
+```
 
+## Run
+
+```bash
+python song-clinical-differ.py --jwt <jwt>  --song-url https://song.example.org --clinical-url https://clincal.example.org
 ```
